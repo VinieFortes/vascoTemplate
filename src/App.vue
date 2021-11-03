@@ -9,6 +9,7 @@
     </q-page-container>
     <Footer/>
   </q-layout>
+  <DialogCookies/>
 </template>
 
 <script>
@@ -18,9 +19,11 @@ import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import FooterBanner from "@/components/FooterBanner";
 import Noticias from "@/components/Noticias";
+import DialogCookies from "@/components/DialogCookies";
 export default {
   name: 'LayoutDefault',
   components: {
+    DialogCookies,
     Noticias,
     FooterBanner,
     Footer,

@@ -28,12 +28,13 @@
         </q-carousel-slide>
       </q-carousel>
     </div>
+
     <div style="width: 40%">
       <q-carousel
           animated
           infinite
           :autoplay="autoplay"
-          v-model="slide"
+          v-model="slide2"
       >
         <q-carousel-slide name="first" img-src="https://istoe.com.br/wp-content/uploads/sites/14/2021/05/609f0446e6a9a.jpeg">
           <div class="absolute-bottom custom-caption bg-red-14">
@@ -50,7 +51,7 @@
         <q-carousel-slide name="third" img-src="https://i1.wp.com/universovasco.com.br/wp-content/uploads/2021/07/camisa-lgbt.jpg?fit=1024%2C682&ssl=1">
           <div class="absolute-bottom custom-caption bg-red-14">
             <div class="text-h2">Novo manto</div>
-            <div class="text-subtitle1">Veja a nova camisa LGTV do Vasco</div>
+            <div class="text-subtitle1">Veja a nova camisa do Vasco</div>
           </div>
         </q-carousel-slide>
       </q-carousel>
@@ -65,6 +66,7 @@ export default {
   setup () {
     return {
       slide: ref('first'),
+      slide2: ref('first'),
       autoplay: ref(true)
     }
   }
