@@ -3,7 +3,7 @@
     <div class="row justify-between items-center">
       <div class="row">
         <div class="row items-center">
-          <q-btn id="btn" color="black" flat @click="drawerLeft = !drawerLeft" round dense icon="menu" />
+          <q-btn size="24px" id="btn" color="black" flat @click="drawerLeft = !drawerLeft" round dense icon="menu" />
           <p id="title">VASCO</p>
         </div>
         <div class="vl"></div>
@@ -68,8 +68,8 @@ export default {
 }
 #title{
   font-size: 30px;
-  margin-top: 15px;
-  margin-right: 50px;
+  margin-top: 20px;
+  margin-right: 40px;
   font-family: "love", Helvetica, Arial, serif;
 }
 #tab1{
@@ -101,6 +101,6 @@ export default {
   width: 24px;
 }
 #logo{
-  margin-left: 15%;
+  margin-left: 10%;
 }
 </style>
