@@ -1,26 +1,41 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <q-layout>
+    <Header/>
+    <q-page-container>
+      <Banner/>
+      <Carousel/>
+      <Noticias/>
+      <FooterBanner/>
+    </q-page-container>
+    <Footer/>
+  </q-layout>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Carousel from "@/components/Carousel";
+import Header from "@/components/Header";
+import Banner from "@/components/Banner";
+import Footer from "@/components/Footer";
+import FooterBanner from "@/components/FooterBanner";
+import Noticias from "@/components/Noticias";
 export default {
-  name: 'App',
+  name: 'LayoutDefault',
   components: {
-    HelloWorld
+    Noticias,
+    FooterBanner,
+    Footer,
+    Carousel,
+    Header,
+    Banner
   }
 }
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@font-face {
+  font-family: "love";
+  src: local("love"),
+  url("assets/love.ttf") format("truetype");
 }
 </style>
