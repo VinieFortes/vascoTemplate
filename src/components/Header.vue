@@ -16,8 +16,17 @@
 </template>
 
 <script>
+
 export default {
-  name: "Header"
+  name: "Header",
+  data(){
+    return {
+      filter: ''
+    }
+  },
+  created() {
+    this.filter = ""
+  }
 }
 </script>
 

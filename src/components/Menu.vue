@@ -4,7 +4,7 @@
       <q-item class="row items-center justify-between" dark clickable v-ripple>
         <q-item-section>CLUBE</q-item-section>
         <i class='fas fa-caret-down' style='color: #f1f1f1; margin-left: 5px'></i>
-        <q-menu style="background-color: black">
+        <q-menu style="background-color: black; min-width: 200px">
           <q-list bordered separator class="text-white column">
             <q-item clickable v-ripple>
               <q-item-section>Sedes</q-item-section>
@@ -29,7 +29,7 @@
         <q-item-section>FUTEBOL</q-item-section>
         <i class='fas fa-caret-down' style='color: #f1f1f1; margin-left: 5px'></i>
 
-        <q-menu style="background-color: black">
+        <q-menu style="background-color: black; min-width: 200px">
           <q-list bordered separator class="text-white column">
             <q-item clickable v-ripple>
               <q-item-section>Comissão Tecnica</q-item-section>
@@ -54,7 +54,7 @@
         <q-item-section>OUTROS ESPORTES</q-item-section>
         <i class='fas fa-caret-down' style='color: #f1f1f1; margin-left: 5px'></i>
 
-          <q-menu style="background-color: black">
+          <q-menu style="background-color: black; min-width: 200px">
           <q-list bordered separator class="text-white column">
             <q-item clickable v-ripple>
                 <q-item-section>Atletismo</q-item-section>

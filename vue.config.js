@@ -3,14 +3,9 @@ module.exports = {
     quasar: {
       importStrategy: 'kebab',
       rtlSupport: false,
-      animations: 'all'
     }
   },
   transpileDependencies: [
     'quasar'
-  ],
-  animations: [
-    'bounceInLeft',
-    'bounceOutRight'
   ]
 }

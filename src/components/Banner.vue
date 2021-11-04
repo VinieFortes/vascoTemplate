@@ -19,11 +19,11 @@
       </div>
       <img id="logo" src="../assets/vasco.png" alt="Vasco">
       <div id="social" class="row">
-        <img src="../assets/yt.png" alt="social">
-        <img src="../assets/tw.png" alt="social">
-        <img src="../assets/insta.png" alt="social">
-        <img src="../assets/face.png" alt="social">
-        <img src="../assets/tik.png" alt="social">
+        <a href="https://www.youtube.com/c/vasco" target="_blank"><img src="../assets/yt.png" alt="social"><q-tooltip class="bg-red-14" :offset="[10, 10]">Youtube</q-tooltip></a>
+        <a href="https://twitter.com/VascodaGama" target="_blank"><img src="../assets/tw.png" alt="social"><q-tooltip class="bg-blue-4" :offset="[10, 10]">Twitter</q-tooltip></a>
+        <a href="https://www.instagram.com/vascodagama/" target="_blank"><img src="../assets/insta.png" alt="social"><q-tooltip class="bg-purple" :offset="[10, 10]">Instagram</q-tooltip></a>
+        <a href="https://www.facebook.com/vascodagama" target="_blank"><img src="../assets/face.png" alt="social"><q-tooltip class="bg-blue-14" :offset="[10, 10]">Facebook</q-tooltip></a>
+        <a href="https://www.tiktok.com/@vasco" target="_blank"><img src="../assets/tik.png" alt="social"><q-tooltip class="bg-purple-4" :offset="[10, 10]">TikTok</q-tooltip></a>
       </div>
       <img src="../assets/tour.png" alt="Vasco" height="48">
     </div>
